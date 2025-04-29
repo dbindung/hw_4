@@ -1,0 +1,22 @@
+1. 
+Публичный класс (Employee) не может наследовать менее доступный класс (Person), из-за чего происходит ошибка компиляции.
+
+2. 
+Person(string name, int age)
+Employee(string name, string company)
+
+3.
+sealed class Admin
+{
+}
+
+4. 
+Грузовик с грузоподъемностью 1.1 тонн
+
+5.
+Auto has been created
+Truck has been created
+Truck with capacity 1.1
+
+6.
+ничего. не инициализируются экземпляры класса, не вызывается конструктор.
